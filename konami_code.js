@@ -30,7 +30,7 @@ function checkKeys()
     
     if(count === codes.length)
     {
-      console.log("Secret Code Unlocked: GOD MODE is ON!!")
+      //console.log("Secret Code Unlocked: GOD MODE is ON!!")
       window.alert("Secret Code Unlocked: GOD MODE is ON!!")
       count = 0
     }
