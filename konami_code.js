@@ -13,6 +13,8 @@ const codes = [
 
 function init() {
   // set up a page listener
+  // tests were looking for the target at document.body
+  // so window._ didn't work.
   var listener = document.body.addEventListener("keydown", checkKeys)
   
   // set up a counter
