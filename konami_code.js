@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   // set up a page listener
-  var listener = window.addEventListener("keydown", checkKeys)
+  var listener = document.body.addEventListener("keydown", checkKeys)
   
   // set up a counter
   count = 0
